@@ -15,58 +15,11 @@
 
 <script>
 	export default{
+		props:['iconsList'],
 		data(){
 			return {
 				swiperOption : {},
-				iconsList :[
-	
-					{
-						id:"01",
-						imgUrl:require("@/assets/picture/icon1.png"),
-						title:"景点门票"
-					},
-					{
-						id:"02",
-						imgUrl:require("@/assets/picture/icon2.png"),
-						title:"必游榜单"
-					},
-					{
-						id:"03",
-						imgUrl:require("@/assets/picture/icon3.png"),
-						title:"本地玩乐"
-					},
-					{
-						id:"04",
-						imgUrl:require("@/assets/picture/icon4.png"),
-						title:"机票酒店"
-					},
-					{
-						id:"05",
-						imgUrl:require("@/assets/picture/icon5.png"),
-						title:"国外签证"
-					},
-					{
-						id:"06",
-						imgUrl:require("@/assets/picture/icon6.png"),
-						title:"著名景点"
-					},
-					{
-						id:"07",
-						imgUrl:require("@/assets/picture/icon7.png"),
-						title:"当地景点"
-					},
-					{
-						id:"08",
-						imgUrl:require("@/assets/picture/icon8.png"),
-						title:"门票信息"
-					},
-					{
-						id:"09",
-						imgUrl:require("@/assets/picture/icon9.png"),
-						title:"更多游玩"
-					}
-					
-				]
+				
 			}
 		},
 		computed : {

@@ -1,0 +1,184 @@
+{
+	"data":[
+		{
+			"city":"黄冈",
+			"SwiperList":[
+				{
+					"id":"01",
+					"imgUrl":"/api/picture/time.jpg"
+				},
+				{
+					"id":"02",
+					"imgUrl":"/api/picture/time2.jpg"
+				},
+				{
+					"id":"03",
+					"imgUrl":"/api/picture/time3.jpg"
+				},
+				{
+					"id":"04",
+					"imgUrl":"/api/picture/time4.jpg"
+				}
+				],
+
+
+				"iconsList" :[
+	
+					{
+						"id":"01",
+						"imgUrl":"/api/picture/icon1.png",
+						"title":"景点门票"
+					},
+					{
+						"id":"02",
+						"imgUrl":"/api/picture/icon2.png",
+						"title":"必游榜单"
+					},
+					{
+						"id":"03",
+						"imgUrl":"/api/picture/icon3.png",
+						"title":"本地玩乐"
+					},
+					{
+						"id":"04",
+						"imgUrl":"/api/picture/icon4.png",
+						"title":"机票酒店"
+					},
+					{
+						"id":"05",
+						"imgUrl":"/api/picture/icon5.png",
+						"title":"国外签证"
+					},
+					{
+						"id":"06",
+						"imgUrl":"/api/picture/icon6.png",
+						"title":"著名景点"
+					},
+					{
+						"id":"07",
+						"imgUrl":"/api/picture/icon7.png",
+						"title":"当地景点"
+					},
+					{
+						"id":"08",
+						"imgUrl":"/api/picture/icon8.png",
+						"title":"门票信息"
+					},
+					{
+						"id":"09",
+						"imgUrl":"/api/picture/icon9.png",
+						"title":"更多游玩"
+					}
+					
+				],
+
+
+
+
+				"HotList":[
+				{
+					"id":"01",
+					"imgUrl":"/api/picture/list1.png",
+					"title":"三里畈温泉",
+					"mark":"20"
+				},
+				{
+					"id":"02",
+					"imgUrl":"/api/picture/list2.png",
+					"title":"毕升温泉",
+					"mark":"26"
+				},
+				{
+					"id":"03",
+					"imgUrl":"/api/picture/list3.png",
+					"title":"南武当滑雪场",
+					"mark":"30"
+				},
+				{
+					"id":"04",
+					"imgUrl":"/api/picture/list4.png",
+					"title":"红花尖滑雪度假村",
+					"mark":"28"
+				},
+				{
+					"id":"05",
+					"imgUrl":"/api/picture/list5.png",
+					"title":"天堂寨",
+					"mark":"50"
+				},
+				{
+					"id":"06",
+					"imgUrl":"/api/picture/list6.png",
+					"title":"汤池宫温泉广场",
+					"mark":"48"
+				},
+				{
+					"id":"07",
+					"imgUrl":"/api/picture/list7.png",
+					"title":"四季花海",
+					"mark":"36"
+				},
+				{
+					"id":"08",
+					"imgUrl":"/api/picture/list8.png",
+					"title":"东坡赤壁",
+					"mark":"98"
+				}
+				],
+
+
+
+
+				"LikeList":[
+				{
+					"id":"01",
+					"imgUrl":"/api/picture/like1.jpg",
+					"title":"南武当滑雪场",
+					"msg":"1341条评论",
+					"pre":"18.8",
+					"map":"平谷区"
+				},
+				{
+					"id":"02",
+					"imgUrl":"/api/picture/like2.jpg",
+					"title":"天堂寨",
+					"msg":"1740条评论",
+					"pre":"95.8",
+					"map":"罗田县"
+				},
+				{
+					"id":"03",
+					"imgUrl":"/api/picture/like3.jpg",
+					"title":"英山桃花冲滑雪世界",
+					"msg":"111条评论",
+					"pre":"88",
+					"map":"英山县"
+				},
+				{
+					"id":"04",
+					"imgUrl":"/api/picture/like4.jpg",
+					"title":"毕升温泉",
+					"msg":"831条评论",
+					"pre":"60",
+					"map":"英山县"
+				},
+				{
+					"id":"05",
+					"imgUrl":"/api/picture/like5.jpg",
+					"title":"黄冈大别山",
+					"msg":"21条评论",
+					"pre":"72",
+					"map":"黄梅县"
+				}
+
+			]
+	},
+
+
+	{
+		"city":"上海"
+	}	
+
+
+	]  
+}

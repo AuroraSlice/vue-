@@ -1,12 +1,10 @@
 <template>
 	<div class="header-swiper">
 	<swiper :options="swiperOption">
-    <!-- slides -->
-    <swiper-slide><img src="@/assets/picture/time.jpg"></swiper-slide>
-    <swiper-slide><img src="@/assets/picture/time2.jpg"></swiper-slide>
-    <swiper-slide><img src="@/assets/picture/time3.jpg"></swiper-slide>
-    <swiper-slide><img src="@/assets/picture/time4.jpg"></swiper-slide>
-    <!-- Optional controls -->
+    
+    <swiper-slide v-for="item in SwiperList" :key="item.id"><img :src="item.imgUrl">
+    </swiper-slide>
+   
     <div class="swiper-pagination"  slot="pagination"></div>
    
   </swiper>
@@ -15,8 +13,10 @@
 
 <script>
 	export default {
+		props:['SwiperList'],
 		data() {
 			return {
+				
 				swiperOption:{
 					pagination: {
             			el: '.swiper-pagination'
@@ -27,7 +27,7 @@
 	}
 }
 </script>
-<style type="text/css" scoped lang="stylus">
+<style scoped lang="stylus">
 	
 	.header-swiper{
 		width: 100%;
