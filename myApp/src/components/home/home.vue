@@ -35,13 +35,13 @@
 		},
 
 		mounted(){
-			this.$http.get("http://localhost:8080/static/mock/dataHome.json").then((res)=>{
+			this.$http.get("/api/dataHome.json").then((res)=>{
 					const data  = res.data.data[0];
 					this.SwiperList = data.SwiperList;
 					this.iconsList = data.iconsList;
 					this.HotList = data.HotList;
 					this.LikeList = data.LikeList;
-					console.log(this.iconsList);
+					console.log(res.data);
 					
 			})
 		}

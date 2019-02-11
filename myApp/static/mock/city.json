@@ -1,0 +1,72 @@
+
+
+
+{
+	"data":[
+
+			{
+				
+				"City":
+				[
+
+					{
+						"id":"01",
+						"spell":"beijing",
+						"name":"北京"
+					},
+
+					{
+						"id":"02",
+						"spell":"shanghai",
+						"name":"上海"
+					},
+
+					{
+						"id":"03",
+						"spell":"sanya",
+						"name":"三亚"
+					},
+					{
+						"id":"04",
+						"spell":"xianggang",
+						"name":"香港"
+					},
+					{
+						"id":"05",
+						"spell":"hangzhou",
+						"name":"杭州"
+					},	
+					{
+						"id":"06",
+						"spell":"guangzhou",
+						"name":"广州"
+					},
+					{
+						"id":"07",
+						"spell":"chengdu",
+						"name":"成都"
+					},
+					{
+						"id":"08",
+						"spell":"shenzhen",
+						"name":"深圳"
+					},
+					{
+						"id":"09",
+						"spell":"suzhou",
+						"name":"苏州"
+					}
+				]
+
+				
+				
+			},
+
+			{
+				"id":"01"
+			}
+
+
+
+		]  
+}
