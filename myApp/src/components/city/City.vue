@@ -1,7 +1,7 @@
 <template>
 	<div class="city">
 		<city-header></city-header>
-		<city-hot></city-hot>
+		<city-hot :City="City"></city-hot>
 		<city-sort></city-sort>
 		<city-list></city-list>
 	</div>
@@ -18,12 +18,19 @@
 			CitySort,
 			CityList
 		},
+		
+		data(){
+			return{
+				City:[]
+			}
+		},
 
 		
 
 		mounted(){
 			this.$http.get("/api/city.json").then((res)=>{
-					console.log(res.data);
+					const data = res.data.data[0];
+					this.City = data.City;
 					
 			})
 

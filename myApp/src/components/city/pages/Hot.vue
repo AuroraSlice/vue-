@@ -1,24 +1,21 @@
 <template>
 	<div class="hot">
 		<div class="hot-title">热门城市</div>
-		<ul class="hot-list">
-			<li class="hot-item">北京</li>
-			<li class="hot-item">上海</li>
-			<li class="hot-item">三亚</li>
-			<li class="hot-item">武汉</li>
-			<li class="hot-item">南京</li>
-			<li class="hot-item">西安</li>
-			<li class="hot-item">海南</li>
-			<li class="hot-item">广州</li>
-			<li class="hot-item">桂林</li>
-			<li class="hot-item">厦门</li>
-			<li class="hot-item">杭州</li>
-			<li class="hot-item">南昌</li>
+		<ul class="hot-list" >
+			<li class="hot-item" v-for="item in City" :key="item.id">
+				{{item.name}}
+			</li>
 		</ul>
 	</div>
 </template>
 
-<script></script>
+<script>
+	export default{
+		props:["City"]
+	}
+
+	
+</script>
 
 <style scoped>
 	.hot-title{

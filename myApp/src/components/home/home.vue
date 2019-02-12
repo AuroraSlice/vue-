@@ -41,7 +41,7 @@
 					this.iconsList = data.iconsList;
 					this.HotList = data.HotList;
 					this.LikeList = data.LikeList;
-					console.log(res.data);
+					
 					
 			})
 		}
